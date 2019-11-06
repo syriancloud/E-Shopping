@@ -772,7 +772,9 @@ iframe {
   .ps-container {
     width: 1170px; }
   .container-fluid {
-    padding: 0 30px; } }
+    padding: 0 30px;
+    background-color: #07859F;
+    color: #FFF;} }
 
 @media (min-width: 1440px) {
   .ps-container {
