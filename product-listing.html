@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link href="dist/images/favicon/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="dist/images/favicon/favicon.png" rel="icon">
+
+    <title>Product Listing</title>
+    <!-- Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:300,400,700%7CMontserrat:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="plugins/ps-icon/style.css">
+    <!-- CSS Library-->
+    <link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="plugins/jquery-bar-rating/dist/themes/fontawesome-stars.css">
+    <link rel="stylesheet" href="plugins/slick/slick/slick.css">
+    <link rel="stylesheet" href="plugins/bootstrap-select/dist/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="plugins/Magnific-Popup/dist/magnific-popup.css">
+    <link rel="stylesheet" href="plugins/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="plugins/revolution/css/settings.css">
+    <link rel="stylesheet" href="plugins/revolution/css/layers.css">
+    <link rel="stylesheet" href="plugins/revolution/css/navigation.css">
+    <!-- Custom-->
+    <link rel="stylesheet" href="dist/css/style.css">
+  </head>
+  <body class="ps-loading">
+    <div class="header--sidebar"></div>
+    <header class="header">
+      <nav class="navigation">
+        <div class="container-fluid">
+          <div class="navigation__column left">
+            <div class="header__logo"><a class="ps-logo" href="#"><img src="dist/images/logo/logo.png" alt=""></a></div>
+          </div>
+          <div class="navigation__column center">
+                <ul class="main-menu menu">
+                  <li class="menu-item"><a href="#">Home</a>
+
+                  </li>
+                  <li class="menu-item menu-item-has-children has-mega-menu"><a href="#">Men</a>
+                    <div class="mega-menu">
+                      <div class="mega-wrap">
+                        <div class="mega-column">
+                          <ul class="mega-item mega-features">
+                            <li><a href="#">Laptop Parts</a></li>
+                            <li><a href="#">Computer Parts</a></li>
+                            <li><a href="#">Tablet Parts</a></li>
+                            <li><a href="#">Office Electronics</a></li>
+                        </div>
+                        <div class="mega-column">
+                          <h4 class="mega-heading">Computer & Office</h4>
+                          <ul class="mega-item">
+                            <li><a href="#">Gaming Laptops</a></li>
+                            <li><a href="#">Laptop</a></li>
+                            <li><a href="#">Tablet</a></li>
+                            <li><a href="#">Computer</a></li>
+                            <li><a href="#">Industrial Computer</a></li>
+                           
+                          </ul>
+                        </div>
+                        <div class="mega-column">
+                          <h4 class="mega-heading">Components</h4>
+                          <ul class="mega-item">
+                            <li><a href="#">Networking</a></li>
+                            <li><a href="#">Computer Cables</a></li>
+                            <li><a href="#">Laptop Components</a></li>
+                            <li><a href="#">Servers</a></li>
+                            <li><a href="#">Networking</a></li>
+   
+
+                          </ul>
+                        </div>
+                        <div class="mega-column">
+                          <h4 class="mega-heading">Accessories</h4>
+                          <ul class="mega-item">
+                            <li><a href="#">Laptop Accessories</a></li>
+                            <li><a href="#">Computer Peripherals</a></li>
+                            <li><a href="#">Tablet Accessories</a></li>
+                            <li><a href="#">Tablet Accessories</a></li>
+                            <li><a href="#">Computer Cleaners</a></li>
+                          </ul>
+                        </div>
+                        <div class="mega-column">
+                          <h4 class="mega-heading">Storage</h4>
+                          <ul class="mega-item">
+                            <li><a href="#">External Storage</a></li>
+                            <li><a href="#">Internal Storage</a></li>
+                            <li><a href="#">USB Storage</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="menu-item"><a href="#">News</a>
+                  </li>
+                  <li class="menu-item"><a href="#">Contact</a>
+                  </li>
+                </ul>
+          </div>
+          <div class="navigation__column right">
+            <form class="ps-search--header" action="do_action" method="post">
+              <input class="form-control" type="text" placeholder="Search Product…">
+              <button><i class="ps-icon-search"></i></button>
+            </form>
+            <div class="ps-cart"><a class="ps-cart__toggle" href="#"><span><i>20</i></span><i class="ps-icon-shopping-cart"></i></a>
+              <div class="ps-cart__listing">
+                <div class="ps-cart__content">
+                  <div class="ps-cart-item"><a class="ps-cart-item__close" href="#"></a>
+                    <div class="ps-cart-item__thumbnail"><a href="#"></a><img src="dist/images/cart-preview/1.jpg" alt=""></div>
+                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="#">Toshiba Satellite Z30-A-1D8</a>
+                      <p><span>Quantity:<i>12</i></span><span>Total:<i>£176</i></span></p>
+                    </div>
+                  </div>
+                  <div class="ps-cart-item"><a class="ps-cart-item__close" href="#"></a>
+                    <div class="ps-cart-item__thumbnail"><a href="#"></a><img src="dist/images/cart-preview/2.jpg" alt=""></div>
+                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="#">DELUX Gaming Mouse</a>
+                      <p><span>Quantity:<i>1</i></span><span>Total:<i>£70</i></span></p>
+                    </div>
+                  </div>
+                  <div class="ps-cart-item"><a class="ps-cart-item__close" href="#"></a>
+                    <div class="ps-cart-item__thumbnail"><a href="product-detail.html"></a><img src="dist/images/cart-preview/3.jpg" alt=""></div>
+                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.html">SanDisk Cruzer Blade USB-minne 16 GB</a>
+                      <p><span>Quantity:<i>12</i></span><span>Total:<i>£176</i></span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="ps-cart__total">
+                  <p>Number of items:<span>36</span></p>
+                  <p>Item Total:<span>£528.00</span></p>
+                </div>
+                <div class="ps-cart__footer"><a class="ps-btn" href="cart.html">Check out<i class="ps-icon-arrow-left"></i></a></div>
+              </div>
+            </div>
+            <div class="menu-toggle"><span></span></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="ps-main">
+      <div class="ps-products-wrap pt-50 pb-80">
+        <div class="ps-products" data-mh="product-listing">
+          <div class="ps-product-action">
+            <div class="ps-product__filter">
+              <select class="ps-select selectpicker">
+                <option value="1">Shortby</option>
+                <option value="2">Name</option>
+                <option value="3">Price (Low to High)</option>
+                <option value="3">Price (High to Low)</option>
+              </select>
+            </div>
+            <div class="ps-pagination">
+              <ul class="pagination">
+                <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">...</a></li>
+                <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="ps-product__columns">
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail">
+                  <div class="ps-badge"><span>New</span></div>
+                  <div class="ps-badge ps-badge--sale ps-badge--2nd"><span>-35%</span></div><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/1.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price">
+                      <del>£220</del> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/2.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/3.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail">
+                  <div class="ps-badge ps-badge--sale"><span>-35%</span></div><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/4.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price">
+                      <del>£220</del> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/5.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/6.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/7.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/8.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/9.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/10.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail">
+                  <div class="ps-badge"><span>New</span></div>
+                  <div class="ps-badge ps-badge--sale ps-badge--2nd"><span>-35%</span></div><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/1.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price">
+                      <del>£220</del> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/2.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/3.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail">
+                  <div class="ps-badge ps-badge--sale"><span>-35%</span></div><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/4.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price">
+                      <del>£220</del> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/5.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/6.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/7.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/8.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/9.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/10.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail">
+                  <div class="ps-badge"><span>New</span></div>
+                  <div class="ps-badge ps-badge--sale ps-badge--2nd"><span>-35%</span></div><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/1.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price">
+                      <del>£220</del> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/2.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/3.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail">
+                  <div class="ps-badge ps-badge--sale"><span>-35%</span></div><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/4.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price">
+                      <del>£220</del> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/5.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/6.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/7.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/8.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/9.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-product__column">
+              <div class="ps-shoe mb-30">
+                <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="dist/images/shoe/10.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                </div>
+                <div class="ps-shoe__content">
+                  <div class="ps-shoe__variants">
+                    <div class="ps-shoe__variant normal"><img src="dist/images/shoe/2.jpg" alt=""><img src="dist/images/shoe/3.jpg" alt=""><img src="dist/images/shoe/4.jpg" alt=""><img src="dist/images/shoe/5.jpg" alt=""></div>
+                    <select class="ps-rating ps-shoe__rating">
+                      <option value="1">1</option>
+                      <option value="1">2</option>
+                      <option value="1">3</option>
+                      <option value="1">4</option>
+                      <option value="2">5</option>
+                    </select>
+                  </div>
+                  <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Toshiba Satellite Z30-A-1D8</a>
+                    <p class="ps-shoe__categories"><a href="#">TOSHIBA</a>,<a href="#"> LAPTOP</a>,<a href="#"> 2019</a></p><span class="ps-shoe__price"> £ 120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ps-product-action">
+            <div class="ps-product__filter">
+              <select class="ps-select selectpicker">
+                <option value="1">Shortby</option>
+                <option value="2">Name</option>
+                <option value="3">Price (Low to High)</option>
+                <option value="3">Price (High to Low)</option>
+              </select>
+            </div>
+            <div class="ps-pagination">
+              <ul class="pagination">
+                <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">...</a></li>
+                <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="ps-sidebar" data-mh="product-listing">
+          <aside class="ps-widget--sidebar ps-widget--category">
+            <div class="ps-widget__header">
+              <h3>Category</h3>
+            </div>
+            <div class="ps-widget__content">
+              <ul class="ps-list--checked">
+                <li ><a href="#">SONY (521)</a></li>
+                <li><a href="#">ACER (12)</a></li>
+                <li><a href="#">DELL (6)</a></li>
+                <li class="current"><a href="#">TOSHIBA (105)</a></li>
+                <li><a href="#">ASUS (108)</a></li>
+                <li><a href="#">APPLE (47)</a></li>
+                <li><a href="#">More</a></li>
+              </ul>
+            </div>
+          </aside>
+          <aside class="ps-widget--sidebar ps-widget--filter">
+            <div class="ps-widget__header">
+              <h3>PRICE</h3>
+            </div>
+            <div class="ps-widget__content">
+              <div class="ac-slider" data-default-min="300" data-default-max="2000" data-max="3450" data-step="50" data-unit="$"></div>
+              <p class="ac-slider__meta">Price:<span class="ac-slider__value ac-slider__min"></span>-<span class="ac-slider__value ac-slider__max"></span></p><a class="ac-slider__filter ps-btn" href="#">Filter</a>
+            </div>
+          </aside>
+          <aside class="ps-widget--sidebar ps-widget--category">
+            <div class="ps-widget__header">
+              <h3>MODEL</h3>
+            </div>
+            <div class="ps-widget__content">
+              <ul class="ps-list--checked">
+                <li class="current"><a href="#">Toshiba Satellite S55-B5292(5)</a></li>
+                <li><a href="#">Toshiba Satellite S400 (76)</a></li>
+                <li><a href="#">Toshiba Satellite S5(69)</a></li>
+              </ul>
+            </div>
+          </aside>
+          <div class="ps-sticky desktop">
+            <aside class="ps-widget--sidebar">
+              <div class="ps-widget__header">
+                <h3>Hard drive size</h3>
+              </div>
+              <div class="ps-widget__content">
+                <table class="table ps-table--size">
+                  <tbody>
+                    <tr>
+                      <td class="active">320</td>
+                      <td>500</td>
+                      <td>750</td>
+                      <td>1T</td>
+                      <td>2T</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </aside>
+            <aside class="ps-widget--sidebar">
+              <div class="ps-widget__header">
+                <h3>Color</h3>
+              </div>
+              <div class="ps-widget__content">
+                <ul class="ps-list--color">
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+
+                </ul>
+              </div>
+            </aside>
+          </div>
+  
+        </div>
+      </div>
+
+      <div class="ps-footer bg--cover">
+        <div class="ps-footer__content">
+        </div>
+        <div class="ps-footer__copyright">
+          <div class="ps-container">
+            <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                    <p>&copy; <a >E</a>COMPANY<a>.2019</a></p>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                    <ul class="ps-social">
+                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- JS Library-->
+    <script type="text/javascript" src="plugins/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="plugins/jquery-bar-rating/dist/jquery.barrating.min.js"></script>
+    <script type="text/javascript" src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="plugins/gmap3.min.js"></script>
+    <script type="text/javascript" src="plugins/imagesloaded.pkgd.js"></script>
+    <script type="text/javascript" src="plugins/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="plugins/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="plugins/jquery.matchHeight-min.js"></script>
+    <script type="text/javascript" src="plugins/slick/slick/slick.min.js"></script>
+    <script type="text/javascript" src="plugins/elevatezoom/jquery.elevatezoom.js"></script>
+    <script type="text/javascript" src="plugins/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx39JFH5nhxze1ZydH-Kl8xXM3OK4fvcg&amp;region=GB"></script><script type="text/javascript" src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script type="text/javascript" src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <!-- Custom scripts-->
+    <script type="text/javascript" src="dist/js/main.js"></script>
+  </body>
+</html>
