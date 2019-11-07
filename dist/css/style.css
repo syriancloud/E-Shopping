@@ -3567,7 +3567,7 @@ textarea.form-control {
         margin-left: 15px; } }
     @media (max-width: 1199px) {
       .ps-home-contact .ps-home-contact__form {
-        margin-left: 0; } }
+        margin-left: 90px; } }
     @media (max-width: 767px) {
       .ps-home-contact .ps-home-contact__form {
         position: relative;
