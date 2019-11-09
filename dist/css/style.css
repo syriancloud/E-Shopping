@@ -5975,6 +5975,78 @@ html .bg--parallax {
   background-color: #000;
   z-index: -5; }
 
+
+  <!-- css of Map-->
+  .map-bg {    
+    background: url(D:/lion/capture2.png) no-repeat;
+  
+    background-size: auto;
+    width: 42%;
+    height: 193px; /*adjust to the height of your image*/
+	margin:308px 485px;
+
+}
+
+.marker {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 130px; /*positions our marker*/
+    left: 200px; /*positions our marker*/
+    display: block;  
+}
+.pin {
+    width: 20px;
+    height: 20px;
+    position: relative;
+	margin:305px 489px;
+
+    background: rgba(5, 124, 255, 1);    
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+	
+}
+.pin-effect {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+	margin:-374px 450px;
+	top:643px;
+
+    display: block;
+    background: rgba(5, 124, 255, 0.6);
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+@keyframes pulsate {
+    0% {
+    transform: scale(0.1);
+    opacity: 0;
+    }
+    50% {
+    opacity: 1;
+    }
+    100% {
+    transform: scale(1.2);
+    opacity: 0;
+    }
+}
+
+
+@media only screen and (max-width: 414px) {
+    .map-bg {
+        background-position: -100px 0px;
+    }
+    
+    .marker { 
+        left: 100px;
+    }
+}
+
+
 .margin-0 {
   margin: 0; }
 
