@@ -5999,7 +5999,7 @@ html .bg--parallax {
     width: 20px;
     height: 20px;
     position: relative;
-	margin:305px 489px;
+	margin:596px -90px;
 
     background: rgba(5, 124, 255, 1);    
     border: 2px solid #FFF;
@@ -6011,7 +6011,7 @@ html .bg--parallax {
     width: 100px;
     height: 100px;
     position: absolute;
-	margin:-374px 450px;
+	margin:-86px -129px;
 	top:643px;
 
     display: block;
